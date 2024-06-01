@@ -7,4 +7,3 @@ class BlogPostSerializer(serializers.ModelSerializer):
         model = BlogPost
         fields = ["id", "title", "content", "published_date"]
 
-#1
